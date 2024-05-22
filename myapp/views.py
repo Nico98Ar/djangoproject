@@ -9,6 +9,7 @@ def index(request):
 
 def hello(request, username):
     print(username)
+    
     return HttpResponse("<h1>HOLAAAAAAAAA %s</h1>" % username)
 
 def about(request):
