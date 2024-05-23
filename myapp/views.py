@@ -23,7 +23,11 @@ def projects(request):
         'projects': projects
     })
     
-def task(request):
+def tasks(request):
     #task =list(Task.objects.values())
-    return render(request, 'task.html')
+    tasks= Task.objects.all()
+    return render(request, 'tasks.html',  {
+        'tasks': tasks
+        
+    } )
     
