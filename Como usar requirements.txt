@@ -1,0 +1,9 @@
+* PARA ENVIAR DEPENDENCIAS INSTALADAS AL ARCHIVO "requirements.txt":
+- pip freeze > requirements.txt
+
+
+
+* PARA INSTALAR LAS DEPENDENCIAS NECESARIAS QUE ESTAN EN EL ARCHIVO "requirements.txt":
+- pip install -r requirements.txt
+
+
